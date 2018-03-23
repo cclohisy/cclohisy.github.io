@@ -1,0 +1,39 @@
+body{
+    background-image: url("/Users/ceciliaclohisy/Documents/homework/TriviaGame-/assets/images/green-trees-background-28.jpeg");
+    background-size: 100%;
+  
+    
+            
+}
+#startButton, #retryButton{
+    background-color: rgb(7, 175, 7);
+
+}
+#startGame{
+    background-color: none;
+}
+#qaData{
+    background-color:rgb(7, 175, 7);
+    color: rgb(197, 220, 247);
+    outline-style: solid;
+    outline-width: 5px;
+    outline-color: rgb(32, 129, 20);
+}
+
+.option:hover{
+    background-color: rgb(225, 234, 243);
+    color:rgb(4, 221, 4);
+}
+
+#result{
+    background-color: rgb(44, 61, 216);
+    color: rgb(174, 247, 174);
+    outline-style: solid;
+    outline-width: 5px;
+    outline-color: rgb(32, 43, 150);
+}
+
+#gameOver{
+    color: rgb(4, 221, 4);
+}
+

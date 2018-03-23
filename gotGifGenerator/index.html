@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- link bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <!-- link to fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Open+Sans" rel="stylesheet">
+
+    <!-- link to jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- link to javascript file -->
+    <script type="text/javascript" src="app.js"></script>
+
+    <!-- link to supplementary CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>GOT GIF Generator</title>
+
+</head>
+
+<body>
+    <!-- page title -->
+    <div class="jumbotron jumbotron-fluid">
+        <h1 class="display-4 text-center">GAME OF THRONES</h1>
+        <p class="lead text-center">Click the buttons to display the corresponding gifs. To find gifs that are not listed, add a button and click to search!</p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <!-- form to make new button -->
+            <div class="col-md-4 card bg-dark mb-2">
+                <div class="card-body">
+                    <h5 class="text-light card-title">Missing a character? Add your own button!</h5>
+                    <input id="userInput" class="form-control card-text" type="text" placeholder="New Gif Search">
+                    <br>
+                    <button id="submitButton" class="btn btn-outline-light" type="button">Submit</button>
+                </div>
+            </div>
+            <!-- div to hold buttons as they are created -->
+            <div class="col-md-7 m-2" id="buttonDiv"> </div>
+        </div>
+
+    <!-- div to hold gifs as the are generated -->
+    <div class="row m-2" id="gifsHere">
+    </div>
+
+    </div>
+
+    <!-- bootstrap links-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
