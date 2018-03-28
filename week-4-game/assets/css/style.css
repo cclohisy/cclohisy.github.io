@@ -1,0 +1,9 @@
+/* set background */
+
+body{
+    background-image: url("/Users/ceciliaclohisy/Documents/homework/week-4-game/assets/images/grey.png");
+}
+
+.jumbotron{
+    background-image: "assets/images/cerulean-blue1.jpg";
+}
